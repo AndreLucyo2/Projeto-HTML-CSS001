@@ -4,46 +4,72 @@
     <meta charset="UTF-8">
     <title>Introcução ao CSS</title>
 
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
-
+    <!--
+        px - pexels
+        em - EM relação ao pai, ou seja relatico ao tag pai : 2m é 2 vezes o valor do pai
+        %  -  
+    --->>
 
     <style>
-        h1 {
-            background-color: #e6ffe6;
-            font-family: 'Coda Caption', sans-serif, monospace;
+        div {
+            font-size: 20px;
         }
 
-        #t1 {
-            color: tomato;
-            font-family: monospace;
+        #p1 {
+            font-size: 16px;
         }
 
-        #t2 {
-            color: rgb(255, 99, 71);
+        #p2 {
+            font-size: 32px;
         }
 
-        #t3 {
-            color: hsl(9, 100%, 64%);
-        }
-
-        #t4 {
-            color: rgba(255, 99, 70, 0.5);
-        }
-
-        #t5 {
-            color: hsla(9, 100%, 64%, 0.6);
+        #p3 {
+            font-size: 2em;
         }
     </style>
+
 </head>
 
 <body>
-    <h1 id="t1">Titulo 1</h1>
-    <h1 id="t2">Titulo 2</h1>
-    <h1 id="t3">Titulo 3</h1>
-    <h1 id="t4">Titulo 4</h1>
-    <h1 id="t5">Titulo 5</h1>
+
+    <div>
+        <p id="p1">In erat lorem, maximus quis nisl et, posuere pulvinar est. Sed feugiat mi quis orci condimentum
+            tincidunt.
+            Vestibulum ac efficitur est, id ultricies nibh. Nunc imperdiet elit quis leo laoreet tempus. Morbi nec orci
+            in
+            nisi porta vulputate. Duis bibendum commodo aliquet. Cras lacinia orci vitae aliquam elementum. Etiam metus
+            ligula.</p>
+
+        <p>In erat lorem, maximus quis nisl et, posuere pulvinar est. Sed feugiat mi quis orci condimentum
+            tincidunt.
+            Vestibulum ac efficitur est, id ultricies nibh. Nunc imperdiet elit quis leo laoreet tempus. Morbi nec orci
+            in.</p>
+    </div>
+
+    <div>
+
+        <p id="p1">In erat lorem, maximus quis nisl et, posuere pulvinar est. Sed feugiat mi quis orci condimentum
+            tincidunt.
+            Vestibulum ac efficitur est, id ultricies nibh. Nunc imperdiet elit quis leo laoreet tempus. Morbi nec orci
+            in
+            nisi porta vulputate. Duis bibendum commodo aliquet. Cras lacinia orci vitae aliquam elementum. Etiam metus
+            ligula, commodo vel velit ac, pellentesque mollis velit. Sed porttitor erat metus, vel vestibulum nulla
+            rhoncus
+            sit amet. Fusce et purus in ligula viverra suscipit. Nullam tempor leo ac magna efficitur mattis.
+            Suspendisse
+            rhoncus euismod eros. Sed semper erat dolor, at ultrices est imperdiet quis.</p>
+
+    </div>
+
+    <div>
+        <p id="p3">In erat lorem, maximus quis nisl et, posuere pulvinar est. Sed feugiat mi quis orci condimentum
+            tincidunt.
+            Vestibulum ac efficitur est, id ultricies nibh. Nunc imperdiet elit quis leo laoreet tempus. Morbi nec orci
+            in
+
+        </p>
+    </div>
+
 </body>
 
 </html>
